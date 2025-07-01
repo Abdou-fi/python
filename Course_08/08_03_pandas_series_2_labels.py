@@ -1,6 +1,5 @@
 # Create a simple Pandas Series from a list:
 # With the index argument, you can name your own labels.
-
 import pandas as pd
 a = [1, 7, 2]
 print("\n ==========================================\n ")
