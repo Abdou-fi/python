@@ -4,9 +4,14 @@ mydataset = {
   'car': ["BMW", "Volvo", "Ford"],
   'year': [1997, 2019, 2020]
 }
-
-my_data = pd.DataFrame(mydataset)
+print("\n ==========================================\n")
 
 print(mydataset)
-print("=====================")
+
+print("\n ==========================================\n")
+
+my_data = pd.DataFrame(mydataset)
 print(my_data)
+
+print("\n ==========================================\n")
+
