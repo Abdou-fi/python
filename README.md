@@ -1,4 +1,4 @@
-Abdesselam FILLI
+Abdesselam FILALI
 
 This is a simple repository for the Python course for beginners
 
