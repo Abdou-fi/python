@@ -1,0 +1,18 @@
+:root {
+  --spacing: 16px;         /* Global variable */
+  --title-Color : rgb(77, 77, 228); /* Global variable */
+}
+
+.orangeText{
+    color: orange;
+}
+
+.title1{
+    color: rgb(77, 77, 228);
+}
+.title2{
+    color: rgb(77, 77, 228);
+}
+.title3{
+    color: rgb(77, 77, 228);
+}
