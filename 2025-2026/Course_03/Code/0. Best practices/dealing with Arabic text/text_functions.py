@@ -8,6 +8,5 @@ def glass (text):
         # print(chr(9474)+" "+l.ljust(w)+" "+chr(9474))
     print( "╰" + "─"*(w+2) + "╯" )
     # print(chr(9584)+chr(9472)*(w+2)+chr(9583))
-    
 
 

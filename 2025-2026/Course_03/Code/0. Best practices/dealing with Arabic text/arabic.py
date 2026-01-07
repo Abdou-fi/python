@@ -13,3 +13,6 @@ def arabic_display(text):
     reshaped_text = arabic_reshaper.reshape(text)
     bidi_text = get_display(reshaped_text)
     return bidi_text
+
+
+# https://pypi.org/project/PyArabic/
