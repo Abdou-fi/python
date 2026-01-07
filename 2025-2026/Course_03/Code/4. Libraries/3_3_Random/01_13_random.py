@@ -16,3 +16,32 @@ while guess_counter < chances:
         print('Your guess is higher ')
     elif my_guess < random_number:
         print('Your guess is lesser')
+
+#example of using random module
+print(random.random())
+print(random.randrange(15))
+print(random.randint(1, 10))
+print(random.choice(['apple', 'banana', 'cherry']))
+print(random.sample(range(100), 10))
+print(random.shuffle([1, 2, 3, 4, 5]))
+print(random.uniform(1, 10))    
+print(random.gauss(0, 1))
+print(random.betavariate(1, 1))
+print(random.expovariate(1))
+print(random.gammavariate(1, 1))
+print(random.lognormvariate(1, 1))
+print(random.normalvariate(1, 1))
+print(random.vonmisesvariate(1, 1))
+print(random.paretovariate(1))
+print(random.weibullvariate(1, 1))
+print(random.triangular(1, 10, 5))
+
+
+
+
+# random vs secrets for generating random numbers
+import secrets
+secure_random = secrets.SystemRandom()
+random_number = secure_random.randrange(15)
+print(random_number)
+# Note: secrets module is used for cryptographic purposes and is more secure than random module
