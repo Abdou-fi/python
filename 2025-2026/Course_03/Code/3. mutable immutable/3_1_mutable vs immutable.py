@@ -1,8 +1,8 @@
-x = "Hello" 
-print(id(x)) 
-y=x[0] 
-print(x) 
-print(y)
-x[0]="h" 
-x="hello" 
-print(id(x))
+str1 = "Hello" 
+print(id(str1)) 
+str2 = str1[0] 
+print(str1) 
+print(str2)
+# str1[0]="h" 
+str1 = "hello" 
+print(id(str1))

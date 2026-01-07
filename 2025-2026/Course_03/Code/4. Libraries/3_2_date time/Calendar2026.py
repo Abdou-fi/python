@@ -13,6 +13,5 @@ def glass (text):
 for m in range(1, 13):
     glass(calendar.month(2026, m))
 
-year = int(input("Enter Year: ")) 
-print(glass(calendar.calendar(year, 2, 1, 8, 3)))
+
 

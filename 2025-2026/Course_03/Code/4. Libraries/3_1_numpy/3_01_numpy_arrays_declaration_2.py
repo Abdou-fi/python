@@ -8,8 +8,9 @@ print(arr1)
 arr2 = np.ones((2,2))
 print(arr2)
 
-arr3 = np.full((2,2), 7)
+arr3 = np.full((2,2), 7.)
 print(arr3)
+print(arr3.dtype)
 
 arr4 = np.eye(3)
 print(arr4)
@@ -20,5 +21,5 @@ print(arr5)
 arr6 = np.arange(0, 30, 5)
 print(arr6)
 
-arr7 = np.linspace(0, 5, 20)
+arr7 = np.linspace(0, 5, 21)
 print(arr7)
