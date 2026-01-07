@@ -7,16 +7,18 @@
 
 # for example, if you are using a constant to represent the value of pi, 
 # you can change its value in one place and it will be updated everywhere in your code
-PI = 3.14
-#PI = 3.14159
+# PI = 3.14159
+# # PI = 3.14159
 
-radius = float(input("Enter the radius of the circle: "))
-area = PI * (radius ** 2)
-print("The area of the circle is:", area)
+# radius = float(input("Enter the radius of the circle: "))
+# area = PI * (radius ** 2)
+# print("The area of the circle is:", area)
+
+
 
 # Constants to format monetary ammounts
-CURRENCY_FORMAT = "DZD {:,.2f}"
-#CURRENCY_FORMAT = "DAT {:,.3f}"
+# CURRENCY_FORMAT = "DZD {:,.2f}"
+CURRENCY_FORMAT = "DAT {:,.3f}"
 
 print(CURRENCY_FORMAT.format(1234567.89))
 print(CURRENCY_FORMAT.format(123456789.123456789))
