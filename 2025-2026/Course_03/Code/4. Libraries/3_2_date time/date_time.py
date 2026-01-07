@@ -1,0 +1,13 @@
+import datetime
+today = datetime.date.today()
+print('Today is', today)
+print('Today year:', today.year) 
+print('Today month:', today.month) 
+print('Today day:', today.day) 
+print('Today weekday:', today.weekday())
+now = datetime.datetime.now()
+print('Now is', now)
+print('Now year:', now.year) 
+print('Now month:', today.month) 
+print('Now day:', today.day) 
+print('Now weekday:', today.weekday())

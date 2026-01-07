@@ -8,7 +8,7 @@ print(arabic_display(text2))
 
 def arabic_display(text):
     import arabic_reshaper
-    from bidi.algorithm import get_display
+    from bidi.algorithm import get_display       # https://pypi.org/project/python-bidi/         pip install python-bidi
 
     reshaped_text = arabic_reshaper.reshape(text)
     bidi_text = get_display(reshaped_text)
