@@ -14,7 +14,7 @@ entry1 = tk.Entry(window)
 entry1.config(font=('Arial', 20))
 entry1.pack()
 
-label2 = tk.Label(window, text='ادخل عمرك:')
+label2 = tk.Label(window, text='ادخل عمرك:', fg="blue", font=("Arial", 14), padx=10, pady=10)
 label2.config(font=('Arial', 20))
 label2.pack()
 
