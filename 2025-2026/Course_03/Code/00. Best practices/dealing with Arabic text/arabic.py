@@ -1,3 +1,4 @@
+# encoding: utf-8
 # https://pypi.org/project/PyArabic/
 
 from text_functions import arabic_display
