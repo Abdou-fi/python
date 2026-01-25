@@ -1,0 +1,4 @@
+using secrets
+using Tkinter (GUI)
+decorator and OOP
+user defined symbols
