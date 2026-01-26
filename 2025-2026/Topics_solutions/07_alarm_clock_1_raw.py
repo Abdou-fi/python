@@ -16,8 +16,8 @@ def set_alarm(alarm_time):
         time.sleep(1)  # Check every 30 seconds
 
 def trigger_sound_alarm():
-    frequency = 2500  # Set Frequency To 2500 Hertz
-    duration = 4000  # Set Duration To 4000 ms == 4 seconds
+    frequency = 5000  # Set Frequency To 2500 Hertz
+    duration = 5000  # Set Duration To 4000 ms == 4 seconds
     winsound.Beep(frequency, duration)
 
 alarm_time = input("Enter the alarm time (HH:MM in 24-hour format): ")

@@ -15,7 +15,7 @@ def play_sound():
         if sys.platform.startswith("win"):
             import winsound
             for _ in range(6):
-                winsound.Beep(1200, 400)
+                winsound.Beep(1200, 4000)
         else:
             print("\a")
     except:
@@ -28,7 +28,7 @@ def create_csv():
         with open(FILE_NAME, mode="w", newline="") as file:
             writer = csv.writer(file)
             writer.writerow(["Alarm_Time"])
-            writer.writerow(["00:5:00"])
+            writer.writerow(["21:03:00"])
 
 
 # -------- READ ALARM FROM CSV --------
