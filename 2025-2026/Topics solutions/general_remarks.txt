@@ -1,0 +1,6 @@
+Library 	|| Primary Use Case	|| Extracting Tables
+============================================================================================================================
+Beautiful Soup	|| HTML parsing		|| Effective for parsing HTML and navigating the document structure to find table tags 
+		||			|| (<table>, <tr>, <td>, etc.).
+
+https://www.bank-of-algeria.dz/taux-de-change-journalier/
