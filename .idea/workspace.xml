@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d1e283d-c639-4a7c-b840-ce9bcd3681b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/00. Best practices/euclidian_division.py" beforeDir="false" afterPath="$PROJECT_DIR$/2025-2026/Course_03/Code/00. Best practices/euclidian_division.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_00_installing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_01_importing_pandas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_02_importing_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_03_pandas_series_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_03_pandas_series_2_labels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_03_pandas_series_3_dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_04_pandas_dataframes_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_04_pandas_dataframes_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_04_pandas_dataframes_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_04_pandas_dataframes_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_04_pandas_dataframes_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_04_pandas_dataframes_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_05_pandas_readCSV_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_05_pandas_readCSV_02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_06_pandas_JSON_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_06_pandas_JSON_02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_07_analysing_data_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_07_analysing_data_02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_07_analysing_data_03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/03_08_ploting_data_01.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/10_01_cleaning techniques.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/10_02_correlation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/data/Screenshot 2025-07-15 144738.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/data/correlation-coefficient.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/data/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/data/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/data/data1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/data/data1_bak.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/data/graph1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/03. Libraries &amp; modules/3_4 pandas/myfunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/03_libraries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/Data Visualization with Pandas.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/FB_IMG_1763867183034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/Python-Data-Visualisation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/Seaborn_.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/WhatsApp Image 2025-05-02 at 15.44.08_6e2bc344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/data visualization.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/487777309_1391831865293693_2090442629524658558_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/492103993_122257182674012023_5647993654289342723_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/494359762_1133537612133789_4617736909592647748_n (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/494359762_1133537612133789_4617736909592647748_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/Alexander Clark - Matplotlib for Storytellers_ Python Data Visualization-Leanpub (2023).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/Data Analysis and Visualization Using Python- Analyze Data -- Dr_ Ossama Embarak.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/Data Analysis with PANDAS - Cheat-Sheet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/Data Visualisation with Python .pdf" beforePathEscaped="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/Data Visualisation with Python 🐍.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/Data visualization Dash .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/Matplotlib 3_ 0 Cookbook _ Over 150 Recipes to Create Highly -- Srinivasa Rao Poladi, Nikhil Borkar.epub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/Matplotlib-1 (2).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/Matplotlib-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/Python Pandas for Beginners.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/WhatsApp Image 2025-04-16 at 20.17.07_3e984aa8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/WhatsApp Image 2025-04-16 at 20.17.10_883ab15d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/WhatsApp Image 2025-04-16 at 20.17.11_4dac6fe4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/WhatsApp Image 2025-04-16 at 20.17.12_52b1dc7e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/WhatsApp Image 2025-04-16 at 20.17.12_d3df3ff3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/WhatsApp Image 2025-04-16 at 20.17.13_26134912.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/WhatsApp Image 2025-04-23 at 11.04.08_1a85ab11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/WhatsApp Image 2025-05-02 at 15.42.27_0a8b5fb0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/learninf numpy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/matplotlib (2).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/matplotlib__.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plot/visualizing Data with Python.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/00_1_linePlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/00_2_linePlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/00_4__BarPlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/00_4_barh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/00_5_ScatterPlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/00_6_Histogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/00_7_Pie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/00_8_BoxPlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/00_9_heatmaps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/01_linePlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/02_linePlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/03_mathFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/04_BarPlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/04_barh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/05_ScatterPlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/06_Histogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/06_Pie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/07_heatmaps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/08_BoxPlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/09_interactive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/1_02_Example1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/1_02_Example2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/1_02_Example3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/2_04_arange.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/2_05_CalculateAvgWeeklyTemp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_00_mathFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_00_mathFunction1_AxisLimits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_00_mathFunction2_3D plotting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_01_linePlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_01_linePlot1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_01_linePlot2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_01_linePlot3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_02_BarPlot1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_02_BarPlot2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_02_BarPlot3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_03_barh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_04_ScatterPlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_05_CalculateAvgWeeklyTemp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_05_Histogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_05_Histogram1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_06_Pie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_06_PieCustomize1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_06_PieCustomize2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_06_Pie_Donut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_06_examplePlotHeart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_08_Stack plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_09_BoxPlot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_10_heatmaps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_11_interactive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/4_98_examplePlotHeart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/Box and Whisker plot using Python Libraries.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/Python for Absolute  Beginners with applications 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/Python for Absolute  Beginners with applications 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/Python for Absolute  Beginners with applications 6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/Untitled1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/plots/Untitled2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/seaborn.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/05. Data visualization/visualizing Data with Python.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Custom Tkinter/CTK.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Tkinter/Tkinter.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Tkinter/Tkinter_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Tkinter/Tkinter_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Tkinter/Tkinter_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Tkinter/Tkinter_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Tkinter/myfunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Tkinter/tkinter_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Tkinter/tkinter_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Tkinter/tkinter_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/08. GUI Creation/Tkinter/window1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/Mark Lutz - Learning Python (for Raymond Rhine)-O'Reilly Media, Inc. (2025).epub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/Mark Lutz - Python Crash Course For Beginners Master Data Analysis Data Science Machine Learning. (2021).epub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/Mastering Python Data Analysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/Matplotlib 3_ 0 Cookbook _ Over 150 Recipes to Create Highly -- Srinivasa Rao Poladi, Nikhil Borkar -- 1st edition, Erscheinungsort nicht ermittelbar, -- 9781789135718 -- c08fdd92cf857f.epub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/OOP Python.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/Python Data Structures and Algorithms.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/Syntax of a Python Class.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/Ultimate_Python_Libraries_for_Data_Analysis_and_Visualization.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/comparing.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/cours-python.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/graph_animation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/import_tips.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/12. OOP/script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/14. fixed point decimals/fixed_point.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025-2026/Course_03/Code/14. fixed point decimals/float_precision.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="394R1ihPHz942VbiDMCwWgJvvtI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d1e283d-c639-4a7c-b840-ce9bcd3681b0" name="Changes" comment="" />
+      <created>1769953144739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769953144739</updated>
+      <workItem from="1769953147508" duration="187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

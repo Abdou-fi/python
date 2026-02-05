@@ -3,13 +3,13 @@
 from text_functions import glass
 while True:
     try:    
-        x=int(input("Enter the first integer: "))
+        x=int(input("Enter the integer to be divided: "))
         break
     except ValueError:
         print("Invalid input. Please enter an integer.")
 while True:
     try:    
-        y=int(input("Enter the second integer: "))
+        y=int(input("Enter the dividor: "))
         break
     except ValueError:
         print("Invalid input. Please enter an integer.")
