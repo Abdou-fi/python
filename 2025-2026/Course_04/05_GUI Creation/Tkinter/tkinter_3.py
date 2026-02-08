@@ -12,12 +12,12 @@ window.geometry('400x300')
 def convert():
     celsius = float(entry.get())
     fahrenheit = celsius * 9/5 + 32
-    label.config(text=f'{fahrenheit}°F')
+    label2.config(text=f'{celsius}°C = {fahrenheit}°F')
    
 
-label = tk.Label(window, text='Enter temperature in Celsius')
-label.config(font=('Arial', 20))
-label.pack()
+label1 = tk.Label(window, text='Temperature in Celsius degrees:')
+label1.config(font=('Arial', 16))
+label1.pack()
 
 entry = tk.Entry(window)
 entry.config(font=('Arial', 20))
@@ -26,5 +26,9 @@ entry.pack()
 button = tk.Button(window, text='Convert', command=convert)
 button.config(font=('Arial', 20))
 button.pack()
+
+label2 = tk.Label(window, text=' ')
+label2.config(font=('Arial', 20))
+label2.pack()
 
 window.mainloop()
