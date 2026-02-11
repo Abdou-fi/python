@@ -3,5 +3,5 @@
 # that gives you more information about the data set.
 
 import pandas as pd
-df = pd.read_csv('course_08\data.csv')
+df = pd.read_csv('../data/data.csv')
 print(df.info())
