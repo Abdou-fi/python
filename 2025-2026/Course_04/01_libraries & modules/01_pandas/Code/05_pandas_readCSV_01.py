@@ -6,5 +6,5 @@ import pandas as pd
 print(pd.options.display.max_rows) 
 # You can change the maximum rows number with the same statement.
 pd.options.display.max_rows = 9999
-df = pd.read_csv('../data/data.csv')
+df = pd.read_csv('data/data.csv')
 print(df)

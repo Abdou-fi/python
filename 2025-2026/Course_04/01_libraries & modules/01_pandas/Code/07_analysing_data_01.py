@@ -10,5 +10,5 @@ print(df.head(10))
 
 # Note: if the number of rows is not specified, the head() method will return the top 5 rows.
 print("\n ==========================================\n")
-df2 = pd.read_csv('course_08\data.csv')
+df2 = pd.read_csv('../data/data.csv')
 print(df2.head())
