@@ -2,7 +2,7 @@ def file_path(filename : str) -> str:
     import os
     # Get the directory of the current script
     script_dir = os.path.dirname(__file__) 
-    print(script_dir)
+    # print(script_dir)
     # Join it with the filename
     file_path = os.path.join(script_dir, filename)
     return file_path
