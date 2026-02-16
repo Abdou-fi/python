@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "d:\\Private\\GitHub\\pythonCourse\\2025-2026\\Course_04\\02_Data_visualization\\plot",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

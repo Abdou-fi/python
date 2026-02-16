@@ -5,7 +5,7 @@ class TicTacToe:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("Tic Tac Toe")
-        self.root.geometry("400x450")
+        # self.root.geometry("400x450")
         self.root.resizable(False, False)
        
         self.current_player = "X"
