@@ -20,7 +20,7 @@
 
     \usepackage{float}
     \floatplacement{figure}{H} % forces figures to be placed at the correct location
-    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage[table]{xcolor} % Allow colors to be defined (table option enables \rowcolors)
     \usepackage{enumerate} % Needed for markdown enumerations to work
     \usepackage{geometry} % Used to adjust the document margins
     \usepackage{amsmath} % Equations
@@ -44,37 +44,7 @@
               \usepackage[mathletters]{ucs}
               \usepackage[utf8x]{inputenc}
           }
-    \else
-        \usepackage{fontspec}
-        \usepackage{unicode-math}
-        \setmainfont{Latin Modern Roman}
-        \setmonofont{Latin Modern Mono}
-        \setsansfont{Latin Modern Sans}
-    \fi
-
-    \usepackage{fancyvrb} % verbatim replacement that allows latex
-    \usepackage{grffile} % extends the file name processing of package graphics
-                         % to support a larger range
-    \makeatletter % fix for old versions of grffile with XeLaTeX
-    \@ifpackagelater{grffile}{2019/11/01}
-    {
-      % Do nothing on new versions
-    }
-    {
-      \def\Gread@@xetex#1{%
-        \IfFileExists{"\Gin@base".bb}%
-        {\Gread@eps{\Gin@base.bb}}%
-        {\Gread@@xetex@aux#1}%
-      }
-    }
-    \makeatother
-    \usepackage[Export]{adjustbox} % Used to constrain images to a maximum size
-    \adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
-
-    % The hyperref package gives us a pdf with properly built
-    % internal navigation ('pdf bookmarks' for the table of contents,
-    % internal cross-reference links, web links for URLs, etc.)
-    \usepackage{hyperref}
+% (First small table moved to document body; removed duplicate from preamble)
     % The default LaTeX title has an obnoxious amount of whitespace. By default,
     % titling removes some of it. It also provides customization options.
     \usepackage{titling}
@@ -122,6 +92,7 @@
 
     % commands and environments needed by pandoc snippets
     % extracted from the output of `pandoc -s`
+        \usepackage{fancyvrb} % provides Verbatim and related environments
     \providecommand{\tightlist}{%
       \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
     \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
@@ -166,36 +137,9 @@
     % exist.
     \def\br{\hspace*{\fill} \\* }
     % Math Jax compatibility definitions
-    \def\gt{>}
-    \def\lt{<}
-    \let\Oldtex\TeX
-    \let\Oldlatex\LaTeX
-    \renewcommand{\TeX}{\textrm{\Oldtex}}
-    \renewcommand{\LaTeX}{\textrm{\Oldlatex}}
-    % Document parameters
-    % Document title
-    \title{\textbf{\textit{Python Datetime library}}}
-    
-    \date{February 05, 2026}
-    
-    \author{Abdesselam Filali \\ {\small \textbf{infos@filali.net}} \\ {\small \textbf{https://github.com/Abdou-fi/python\_libraries}}}
-    
-    % Enhanced typography: Uses Latin Modern vector fonts for crisp output
-    % Microtype package improves font rendering and prevents pixelization on zoom
-    
-% Pygments definitions
-\makeatletter
-\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
-    \let\PY@ul=\relax \let\PY@tc=\relax%
-    \let\PY@bc=\relax \let\PY@ff=\relax}
-\def\PY@tok#1{\csname PY@tok@#1\endcsname}
-\def\PY@toks#1+{\ifx\relax#1\empty\else%
-    \PY@tok{#1}\expandafter\PY@toks\fi}
-\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
-    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
-\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
-
-\@namedef{PY@tok@w}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+    % (Notation table moved to the document body under the 'strftime' section)
+    \makeatletter
+    \@namedef{PY@tok@w}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
 \@namedef{PY@tok@c}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.24,0.48,0.48}{##1}}}
 \@namedef{PY@tok@cp}{\def\PY@tc##1{\textcolor[rgb]{0.61,0.40,0.00}{##1}}}
 \@namedef{PY@tok@k}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
@@ -388,6 +332,7 @@
         \pdfcompresslevel=9
     \fi
     % Setup hyperref package
+        \usepackage{hyperref}
     \hypersetup{
       breaklinks=true,  % so long urls are correctly broken across lines
       colorlinks=true,
@@ -402,14 +347,18 @@
     
     
 
+    % Minimal title to satisfy \maketitle
+    \title{Datetime}
+    \author{}
+
 \begin{document}
     
     \maketitle
-    
+
     
 This is a Jupyter notebook converted to \LaTeX using the nbconvert tool. It introduces the \textbf{\emph{Datetime}} library. For any question or remark please email me or send a request throught my github.
     
-    \section{Python Datetime}\label{python-datetime}
+    \section{Python Datetime}
 
 Python has a module named \textbf{\emph{Datetime}} to work with dates and times. It
 provides a variety of classes for representing and manipulating date and
@@ -501,8 +450,7 @@ get the current date. The result is stored in the today variable, which
 is a date object. We then printed the current date using the print()
 function.
 
-\section{Timezone}\label{timezone}
-
+\section{Timezone}
 The timezone class represents a timezone object. It has the following attributes: 
 
 
@@ -515,8 +463,7 @@ The timezone class represents a timezone object. It has the following attributes
 
 
 
-\subsection{Get current timezone}\label{get-current-timezone}
-
+\subsection{Get current timezone}
 \begin{Shaded}
 \begin{Highlighting}[]
 \ImportTok{from}\NormalTok{ datetime }\ImportTok{import}\NormalTok{ datetime, timezone}
@@ -526,8 +473,7 @@ The timezone class represents a timezone object. It has the following attributes
 \end{Highlighting}
 \end{Shaded}
 
-\section{Attributes of datetime
-Module}\label{attributes-of-datetime-module}
+\section{Attributes of datetime Module}
 
 We can use the dir() function to geta a list containing all attributes
 of a module.
@@ -565,7 +511,7 @@ Among all the attributes of datetime module, the most commonly used classes in t
 \item \textbf{\emph{datetime.timedelta}} - represents a duration, which can be used to perform arithmetic with datetime objects.
 \end{itemize}
 
-\section{strftime}\label{strftime}
+\section{strftime}
 
 This function formats a datetime object into a string according to a
 specified format such as Short/Long days (Mon, Monday), Short/Long
@@ -577,7 +523,9 @@ format the date and time.
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lll@{}}
 \toprule\noalign{}
-Notation & Meaning & Example \\
+
+\textbf{Notation} & \textbf{Meaning} & \textbf{Example} \\
+
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -622,16 +570,14 @@ output:
 \end{Highlighting}
 \end{Shaded}
 
-\section{References}\label{references}
+\section{References}
 
 \begin{itemize}
 \tightlist
 \item
-  \href{https://www.w3schools.com/python/python_datetime.asp}{Python
-  Datetime Module}
+  \href{https://www.w3schools.com/python/python_datetime.asp}{Python Datetime Module on w3schools} 
 \item
-  \href{https://docs.python.org/3/library/datetime.html}{Python Datetime
-  Module}
+  \href{https://docs.python.org/3/library/datetime.html}{Python Datetime documentation on python.org} 
 \end{itemize}
 
 
