@@ -26,6 +26,7 @@
     \usepackage{amsmath} % Equations
     \usepackage{amssymb} % Equations
     \usepackage{textcomp} % defines textquotesingle
+    \usepackage{microtype} % Improved typography and font rendering
     % Hack from http://tex.stackexchange.com/a/47451/13684:
     \AtBeginDocument{%
         \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
@@ -36,6 +37,7 @@
     \usepackage{iftex}
     \ifPDFTeX
         \usepackage[T1]{fontenc}
+        \usepackage{lmodern} % Latin Modern: scalable vector fonts
         \IfFileExists{alphabeta.sty}{
               \usepackage{alphabeta}
           }{
@@ -45,6 +47,9 @@
     \else
         \usepackage{fontspec}
         \usepackage{unicode-math}
+        \setmainfont{Latin Modern Roman}
+        \setmonofont{Latin Modern Mono}
+        \setsansfont{Latin Modern Sans}
     \fi
 
     \usepackage{fancyvrb} % verbatim replacement that allows latex
@@ -167,11 +172,16 @@
     \renewcommand{\LaTeX}{\textrm{\Oldlatex}}
     % Document parameters
     % Document title
-    \title{Pandas - Data Correlations}
+
+    \title{\textbf{\textit{Pandas - Data Correlations}}}
+
+    \date{February 15, 2026}
+
+    \author{Abdesselam Filali \\ {\small \textbf{infos@filali.net}} \\ {\small \textbf{https://github.com/Abdou-fi/python\_libraries}}}    
+
     
-    
-    
-    
+    % Enhanced typography: Uses Latin Modern vector fonts for crisp output
+    % Microtype package improves font rendering and prevents pixelization on zoom
     
     
     
@@ -373,6 +383,12 @@
     
     % Prevent overflowing lines due to hard-to-break entities
     \sloppy
+    % High-quality PDF rendering settings for crisp vector fonts
+    \ifPDFTeX
+        \pdfminorversion=7 % Use PDF 1.7 for better quality
+        \pdfobjcompresslevel=9 % Maximum compression
+        \pdfcompresslevel=9
+    \fi
     % Setup hyperref package
     \hypersetup{
       breaklinks=true,  % so long urls are correctly broken across lines
@@ -380,21 +396,30 @@
       urlcolor=urlcolor,
       linkcolor=linkcolor,
       citecolor=citecolor,
+      pdfdisplaydoctitle=true, % Display document title in window
       }
     % Slightly bigger margins than the latex defaults
     
     \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
-    
-    
 
 \begin{document}
     
     \maketitle
     
-    
+        
+This is a Jupyter notebook converted to \LaTeX using the nbconvert tool.
+It contains explanation, code snippets and outputs related to data correlation using the \textbf{\emph{Pandas}} library.
+For any question or remark please email me or send a request throught my github.
+
 
     
-    \subsection{I. Finding Relationships}\label{i.-finding-relationships}
+    \section{Finding Relationships}\label{i.-finding-relationships}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\linewidth]{correlation-coefficient.png}
+    \label{fig:myfigure}
+\end{figure}
 
 A great aspect of the Pandas module is the corr() method. The corr()
 method calculates the relationship between each column in your data set.
@@ -423,7 +448,7 @@ Calories  0.922717  0.025121  0.203813  1.000000
         
     Note: The corr() method ignores ``not numeric'' columns.
 
-    \subsection{II. Result Explained}\label{ii.-result-explained}
+    \section{Result Explained}\label{ii.-result-explained}
 
 The Result of the corr() method is a table with a lot of numbers that
 represents how well the relationship is between two columns. The number
@@ -440,20 +465,20 @@ the other will.
 safe to say you have to have at least 0.6 (or -0.6) to call it a good
 correlation.
 
-    \subsection{III. Perfect Correlation:}\label{iii.-perfect-correlation}
+    \section{Perfect Correlation:}\label{iii.-perfect-correlation}
 
 We can see that ``Duration'' and ``Duration'' got the number 1.000000,
 which makes sense, each column always has a perfect relationship with
 itself.
 
-    \subsection{IV. Good Correlation:}\label{iv.-good-correlation}
+    \section{Good Correlation:}\label{iv.-good-correlation}
 
 ``Duration'' and ``Calories'' got a 0.922721 correlation, which is a
 very good correlation, and we can predict that the longer you work out,
 the more calories you burn, and the other way around: if you burned a
 lot of calories, you probably had a long work out.
 
-    \subsection{V. Bad Correlation:}\label{v.-bad-correlation}
+    \section{Bad Correlation:}\label{v.-bad-correlation}
 
 ``Duration'' and ``Maxpulse'' got a 0.009403 correlation, which is a
 very bad correlation, meaning that we can not predict the max pulse by
