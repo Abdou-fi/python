@@ -1,0 +1,3 @@
+https://pyoflife.com/python-data-cleaning-cookbook/
+
+https://colab.research.google.com/github/amanchadha/aman-ai/blob/master/pandas.ipynb#scrollTo=nQW_J5sj_IuF
