@@ -1,6 +1,6 @@
 import re
 
-txt = "hello planet"
+txt = "Hello planet"
 
 #Check if the string starts with 'hello':
 

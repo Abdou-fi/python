@@ -4,7 +4,7 @@
 
 
 import re
-text="ab ac abc abbc abbbc"
+text="ab ac abc abbc abbbc abbbbc"
 matches_1=re.findall(r"ab{2,}c", text)
 matches_2=re.findall(r"ab{,3}c", text)
 matches_3=re.findall(r"ab{2,3}c", text)

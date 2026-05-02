@@ -1,6 +1,6 @@
 import re
 
-txt = "hello planet"
+txt = "helllo planet"
 
 #Search for a sequence that starts with "he", followed by 1 or more  (any) characters, and an "o":
 
