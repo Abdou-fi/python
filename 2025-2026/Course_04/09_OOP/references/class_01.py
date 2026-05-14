@@ -1,5 +1,5 @@
 class rectangle:
-    def __init__(self, name, length, width):
+    def __init__(self, length, width):
         self.length = length
         self.width = width
         self.superficy = length * width
